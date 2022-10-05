@@ -1,6 +1,6 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-# Data Carpentry for Social Sciences & Humanities  - Notes for R lesson
+# Data Carpentry for Social Sciences & Humanities  - Notes from R lesson
 In this repository you will find scripts and documents created during the [Data Carpentry for Social Sciences & Humanities](https://eur-nl.github.io/2022-10-24-ldev-online/) workshop organised by Leiden University, TU Delft, Erasmus University Rotterdam, VU Amsterdam on Oct 24, 25, 27, 28, 2022.
 
 ## Usage Learners 
@@ -29,8 +29,9 @@ To work with the solution instructors need to have the following setup ready:
 - git requires authentication
 - ValueError: A `git status` command didn't work, are you sure this is a git repository?
 
-This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)
 
