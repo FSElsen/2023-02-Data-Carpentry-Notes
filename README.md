@@ -31,7 +31,8 @@ To work with the solution instructors need to have the following setup ready:
 
 ### Troubleshooting
 - git requires SSH authentication
-    - you can try with https
+    - Add [SSH agent](https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase)
+    - You can try with `git clone` using  `https`
 - ValueError: A `git status` command didn't work, are you sure this is a git repository?
 
 
