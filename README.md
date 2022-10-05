@@ -4,7 +4,10 @@
 In this repository you will find scripts and documents created during the [Data Carpentry for Social Sciences & Humanities](https://eur-nl.github.io/2022-10-24-ldev-online/) workshop organised by Leiden University, TU Delft, Erasmus University Rotterdam, VU Amsterdam on Oct 24, 25, 27, 28, 2022.
 
 ## Usage Learners 
-The repository should mimic the project structure of the R project that has been created by the instructors during the Data Carpentry. Go to the file in which the instructor is now coding. You don't see the most recent lines of code? Refresh the page and the see the new commands coming in!   
+The repository should mimic the project structure of the R project that has been created by the instructors during the Data Carpentry. 
+- In the files list above, find a folder icon with the name of the project that the instructor has created. This folder will likely be called `data-carpentry`.
+- Go to the file in which the instructor is now coding. 
+- You don't see the most recent lines of code? Refresh the page and  see the new commands coming in!   
 
 ## Usage Instructors 
 Instructors can automatically update repository using [gitautopush](https://pypi.org/project/gitautopush/). 
@@ -23,10 +26,12 @@ To work with the solution instructors need to have the following setup ready:
 - you can also setup a delay between live coding and the notes in the repository by adding `--sleep <INT>` argument,  `INT` being the amount of time (in seconds) to wait in between attempts to synchronize.
 - in the folder of the repository, create a new R script/ Rmarkdown and save the changes
 - see if it automatically pushes to the repository
+- save changes often with `Ctrl+S` in order for the changes to be pushed o the repository
 - once you finish your lesson, make sure to close `gitautopush` with `Ctrl+C`  
 
 ### Troubleshooting
-- git requires authentication
+- git requires SSH authentication
+    - you can try with https
 - ValueError: A `git status` command didn't work, are you sure this is a git repository?
 
 
