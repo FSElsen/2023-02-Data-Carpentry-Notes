@@ -1,9 +1,8 @@
-library(data.table)
+library(tidyverse)
 library(ggplot2)
 
-mycars <- as.data.table(mtcars)
 
-mycars
+
 
 
 
