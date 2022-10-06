@@ -37,7 +37,8 @@ To work with the solution instructors need to have the following setup ready:
     - If you don't SSH key set up yet, set it up without a passphrase (just hit enter when prompted for it)
     - You can try with `git clone` using  `https` (worked for me but normally not recommended)
 - ValueError: A `git status` command didn't work, are you sure this is a git repository?
-    - It might be occuring when there are already some changes to be staged once you launch `gitautopush`. First, run `gitautpush`, then start creating files or making changes to the existing ones. 
+    - It might be occuring when there are already some changes to be staged once you launch `gitautopush`. First, run `gitautopush`, then start creating files or making changes to the existing ones. 
+    - Another thing to try is to first commit and push one file manually to the repository, once you have done that and no changes are staged run `gitautopush`
 
 
 
