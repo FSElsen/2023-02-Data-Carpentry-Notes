@@ -17,3 +17,4 @@ library(tidyverse)
 
 # Creating object 
 
+area_hectares <- 1.0  # asign a value to an object
