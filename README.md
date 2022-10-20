@@ -22,7 +22,7 @@ To work with the solution instructors need to have the following setup ready:
 
 ### Steps
 - `pip install gitautopush`
-- clone this repository to your local directory
+- `git clone` this repository to your local directory
 - if you have cloned the repository a while ago, `git pull` to avoid conflicts
 - in terminal, start observing the folder by command: `gitautopush /path/to/my/repo/folder`
 - you can also setup a delay between live coding and the notes in the repository by adding `--sleep <INT>` argument,  `INT` being the amount of time (in seconds) to wait in between attempts to synchronize.
