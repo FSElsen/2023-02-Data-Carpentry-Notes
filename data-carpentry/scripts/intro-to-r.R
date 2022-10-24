@@ -5,4 +5,7 @@
 #              "data/SAFI_clean.csv", mode = "wb")
 
 # R as calculator
-
+3+5
+12*7
+12/7
+3^5 # 3 to the power of 5
