@@ -1,4 +1,4 @@
 3 + 5 
 print("hello world")
 
-install.packages("tidyverse")
+# install.packages("tidyverse") # uncomment if no tidyverse installed
