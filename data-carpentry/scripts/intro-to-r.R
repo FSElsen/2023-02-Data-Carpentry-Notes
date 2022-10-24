@@ -11,3 +11,6 @@
 3^5 # 3 to the power of 5
 
 # Creating objects in R
+
+area_hectares <- 1.0 
+area_hectares
