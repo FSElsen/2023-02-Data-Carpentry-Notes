@@ -9,3 +9,5 @@
 12*7
 12/7
 3^5 # 3 to the power of 5
+
+# Creating objects in R
