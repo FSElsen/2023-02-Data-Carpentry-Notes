@@ -12,5 +12,6 @@
 
 # Creating objects in R
 
-area_hectares <- 1.0 
-area_hectares
+area_hectares <- 1.0 # asign
+area_hectares #call
+
