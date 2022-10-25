@@ -133,3 +133,4 @@ View(interviews) # view the data
 
 head(interviews) # first 6 observations
 head(interviews, n = 20) # first 20 observations/rows
+tail(interviews) # last 6 observations
