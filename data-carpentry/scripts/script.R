@@ -19,4 +19,4 @@ print("hello world")
 # Creating objects
 
 area_hectares <- 1.0
-
+area_hectares
