@@ -147,4 +147,6 @@ summary(interviews) # summary statistics for the full data set
 
 
 # Subsetting a data frame
+interviews[1,1] # first row and first column
+
 
