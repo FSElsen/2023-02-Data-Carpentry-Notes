@@ -61,4 +61,13 @@ respondent_wall_type
 
 
 # Adding to a vector
+possessions <- c("bicycle", "radio", "television")
+possessions
+
+possessions <- c(possessions, "mobile phone")
+possessions
+
+possessions <-c("car", possessions)
+possessions
+
 
