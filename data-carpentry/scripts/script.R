@@ -97,3 +97,4 @@ possessions
 
 possessions[possessions == 'car'  | possessions == 'radio']
 
+# Missing data 
