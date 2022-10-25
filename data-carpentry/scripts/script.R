@@ -114,3 +114,13 @@ is.na(rooms)
 
 rooms_no_na <-rooms[!is.na(rooms)]
 rooms_no_na
+
+
+# Starting with data 
+
+#importing libraries
+
+library(tidyverse)
+library(here)
+
+#read data from
