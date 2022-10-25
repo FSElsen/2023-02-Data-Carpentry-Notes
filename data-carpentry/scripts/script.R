@@ -2,6 +2,6 @@
 print("hello world")
 
 
-install.packages("tidyverse")
+# install.packages("tidyverse") # uncomment if tidyverse not installed
 
 
