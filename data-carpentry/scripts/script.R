@@ -140,3 +140,5 @@ names(interviews) # variables / column names
 nrow(interviews) # number of rows
 ncol(interviews) # number of columns
 dim(interviews) # number of rows AND columns
+
+str(interviews) #structure (dimensions and column names) of the data set
