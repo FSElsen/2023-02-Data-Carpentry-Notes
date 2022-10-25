@@ -79,3 +79,9 @@ respondent_wall_type[2]
 respondent_wall_type[c(3,2)]
 
 # by logical vector
+hh_members
+
+hh_members[c(TRUE, FALSE, TRUE, TRUE)]
+
+# by condition
+
