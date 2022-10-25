@@ -39,5 +39,5 @@ area_hectares * 2.47
 
 # Functions 
 
-
+sqrt(9)
 
