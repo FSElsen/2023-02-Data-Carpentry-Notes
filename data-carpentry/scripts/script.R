@@ -158,3 +158,5 @@ class(filtered_interviews)
 
 key_IDs <-interviews[[1]] # extract first column as a vector
 key_IDs
+
+interviews[,-1] # dataset without the first column
