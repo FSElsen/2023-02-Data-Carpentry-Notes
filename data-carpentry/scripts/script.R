@@ -48,4 +48,11 @@ round(3.1415, digits = 2)
 
 # ?round # use '?' for documentation
 
+ # dATA TYPES AND VECTORS 
+
+# Vectors 
+
+hh_members <- c(3, 7, 10, 6)
+hh_members
+
 
