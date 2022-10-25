@@ -60,4 +60,5 @@ respondent_wall_type <- c("muddaub", "burntbricks", "sunbricks" )
 respondent_wall_type
 
 
+# Adding to a vector
 
