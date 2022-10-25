@@ -146,3 +146,5 @@ str(interviews) #structure (dimensions and column names) of the data set
 summary(interviews) # summary statistics for the full data set
 
 
+# Subsetting a data frame
+
