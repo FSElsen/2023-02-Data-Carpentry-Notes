@@ -134,3 +134,9 @@ View(interviews) # view the data
 head(interviews) # first 6 observations
 head(interviews, n = 20) # first 20 observations/rows
 tail(interviews) # last 6 observations
+names(interviews) # variable / column names
+
+names(interviews) # variables / column names
+nrow(interviews) # number of rows
+ncol(interviews) # number of columns
+dim(interviews) # number of rows AND columns
