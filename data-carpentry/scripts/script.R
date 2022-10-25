@@ -167,3 +167,5 @@ villages
 # Exercise 1
 interview_100 <- interviews[100,]
 
+nrow(interviews)
+interview_last <- interviews[131, ]
