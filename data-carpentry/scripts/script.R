@@ -22,3 +22,20 @@ area_hectares <- 1.0
 area_hectares
 
 # Arithmetic with objects
+
+area_hectares * 2.47
+
+area_hectares <- 2.5
+
+area_hectares * 2.47
+
+area_acres <- area_hectares * 2.47
+area_acres
+
+area_hectares <- 50
+area_acres
+
+area_hectares * 2.47
+
+
+
