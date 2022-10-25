@@ -164,3 +164,6 @@ interviews[,-1] # dataset without the first column
 villages <- interviews$village  # extract column as a vector with a dollar sign ($)
 villages
 
+# Exercise 1
+interview_100 <- interviews [100,]
+
