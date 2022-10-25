@@ -42,3 +42,10 @@ area_hectares * 2.47
 sqrt(9)
 
 # Functions with multiple arguments
+round(3.1415)
+round(3.1415, digits = 0)
+round(3.1415, digits = 2)
+
+# ?round # use '?' for documentation
+
+
