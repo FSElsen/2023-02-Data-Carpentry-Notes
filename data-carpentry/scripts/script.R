@@ -70,4 +70,8 @@ possessions
 possessions <-c("car", possessions)
 possessions
 
+# Subsetting vectors
+
+# by Index 
+
 
