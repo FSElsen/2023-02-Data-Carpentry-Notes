@@ -127,4 +127,4 @@ library(here)
 
 interviews <- read_csv( here('data', "SAFI_clean.csv"))
 
-View(interviews)
+View(interviews) # view the data 
