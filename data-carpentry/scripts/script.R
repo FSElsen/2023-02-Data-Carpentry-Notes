@@ -6,8 +6,8 @@ print("hello world")
 
 
 # Downloading data 
-#download.file("https://ndownloader.figshare.com/files/11492171",
-#              "data/SAFI_clean.csv", mode = "wb")
+# download.file("https://ndownloader.figshare.com/files/11492171",
+#               "data/SAFI_clean.csv", mode = "wb")
 
 # R as a calculator
 
@@ -17,4 +17,6 @@ print("hello world")
 3 ^ 5 # 3 to the power of 5
 
 # Creating objects
+
+area_hectares <- 1.0
 
