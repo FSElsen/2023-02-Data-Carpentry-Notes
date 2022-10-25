@@ -73,5 +73,9 @@ possessions
 # Subsetting vectors
 
 # by Index 
+respondent_wall_type
 
+respondent_wall_type[2]
+respondent_wall_type[c(3,2)]
 
+# by logical vector
