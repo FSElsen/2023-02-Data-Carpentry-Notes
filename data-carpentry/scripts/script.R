@@ -98,3 +98,19 @@ possessions
 possessions[possessions == 'car'  | possessions == 'radio']
 
 # Missing data 
+NA
+
+rooms <- c( 2, 1, 1 , NA , 7)
+rooms
+
+mean(rooms)
+max(rooms)
+
+mean(rooms, na.rm = TRUE)
+max(rooms, na.rm = TRUE)
+
+is.na(rooms)
+!is.na(rooms)
+
+rooms_no_na <-rooms[!is.na(rooms)]
+rooms_no_na
