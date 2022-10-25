@@ -156,4 +156,5 @@ interviews[,1] # entire first column
 filtered_interviews <- interviews[1, ] # entire first row
 class(filtered_interviews)
 
-key_IDs <-interviews[[1]]
+key_IDs <-interviews[[1]] # first column as a vector
+key_IDs
