@@ -172,5 +172,6 @@ interview_last <- interviews[n_rows, ]
 
 ## Factors
 
+levels_wall_type <- factor(interviews$respondent_wall_type)
 
 
