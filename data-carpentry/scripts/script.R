@@ -123,4 +123,6 @@ rooms_no_na
 library(tidyverse)
 library(here)
 
-#read data from
+#read data from the CSV file
+
+interviews <- read_csv( here('data', "SAFI_clean.csv"))
