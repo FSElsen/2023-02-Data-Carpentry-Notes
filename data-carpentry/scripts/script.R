@@ -124,7 +124,12 @@ library(tidyverse)
 library(here)
 
 #read data from the CSV file
-
 interviews <- read_csv( here('data', "SAFI_clean.csv"))
 
 View(interviews) # view the data 
+
+
+# Basic information
+
+head(interviews) # first 6 observations
+head(interviews, n = 20) # first 20 observations/rows
