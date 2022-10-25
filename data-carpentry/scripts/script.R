@@ -20,3 +20,5 @@ print("hello world")
 
 area_hectares <- 1.0
 area_hectares
+
+# Arithmetic with objects
