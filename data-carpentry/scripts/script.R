@@ -52,7 +52,12 @@ round(3.1415, digits = 2)
 
 # Vectors 
 
-hh_members <- c(3, 7, 10, 6)
+hh_members <- c(3, 7, 10, 6) # vector of numbers
 hh_members
+
+
+respondent_wall_type <- c("muddaub", "burntbricks", "sunbricks" )
+respondent_wall_type
+
 
 
