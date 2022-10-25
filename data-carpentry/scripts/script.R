@@ -41,3 +41,4 @@ area_hectares * 2.47
 
 sqrt(9)
 
+# Functions with multiple arguments
