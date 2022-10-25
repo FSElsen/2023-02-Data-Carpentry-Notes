@@ -148,7 +148,8 @@ summary(interviews) # summary statistics for the full data set
 
 # Subsetting a data frame
 interviews[1,1] # first row and first column
-
+interviews[5,6] # sixth column on the fifth row
+interviews[ 1:3, 3:5] # rows 1 up and until 3, columns 3-5
 
 
 
