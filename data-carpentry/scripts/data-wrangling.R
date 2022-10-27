@@ -75,5 +75,15 @@ interviews_total_meals <- interviews %>%
   select(village, total_meals)
 
 #### Split-apply-combine data analysis and the summarize() function ####
+## split data into groups, apply some analysis to each group, combine the results
+## example using the group_by() and summarize() functions from dplyr:
+interviews %>% 
+  group_by(village) %>% # use a categorical variable to group the data
+  summarize(mean_no_membrs = mean(no_membrs)) # compute the average household
+
+
+
+
+
 
 
