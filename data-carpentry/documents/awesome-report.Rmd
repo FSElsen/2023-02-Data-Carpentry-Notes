@@ -8,5 +8,10 @@ output: html_document
 ```{r setup, include = FALSE}
 library(tidyverse)
 library(here)
+
+knitr::opts_chunk$set(
+  fig.path = here("fig_output")
+)
+
 interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
 ```
