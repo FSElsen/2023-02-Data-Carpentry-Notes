@@ -86,6 +86,13 @@ interviews %>%
   summarize(mean_no_membrs = mean(no_membrs)) %>% 
   ungroup()
 
+## after grouping, it is also possible to summarize multiple values
+interviews %>% 
+  filter(!is.na(memb_assoc)) %>% # filter out memb_assoc = NA / missing
+  group_by(village, memb_assoc) %>% # group by village AND memb_assoc
+  summarize(mean_no_membrs = mean(no_membrs), # first we summarize the mean no. of members, then place a comma
+            min_membrs = min(no_membrs)) # next, we summarize the minimum household size
+  
 
 
 
