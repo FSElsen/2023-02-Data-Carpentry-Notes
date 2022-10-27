@@ -21,4 +21,7 @@ select(interviews, village:respondent_wall_type) # select a series of connected 
 ## select rows based on specific criteria using filter()
 filter(interviews, village == "Chirodzo") # filter observations where village name is Chirodzo
 
+filter(interviews, village == "Chirodzo" &
+         rooms > 1,
+       no_meals > 2) # filter observations with the "and" operator 
 
