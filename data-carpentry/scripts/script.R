@@ -192,5 +192,10 @@ plot(level_memb_assoc)
 
 ## Dates
 
+dates <- interviews$interview_date
 
+library(lubridate)
 
+years = year(dates) # extract the year
+months = month(dates) # extract the month
+day = day(dates) # extract the days
