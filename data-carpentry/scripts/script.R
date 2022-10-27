@@ -202,4 +202,4 @@ day <- day(dates) # extract the days
 
 char_data <- c( '7/12/2021','3/5/2020')
 new_data <- as_date( char_data , format = '%m/%d/%y' )
-
+new_data
