@@ -60,4 +60,14 @@ interviews4 <- interviews %>%
 interviews_avg_room <- interviews %>% 
   mutate(people_per_room = no_membrs / rooms) # average number of people per room
 
+## Question: has being a member of an irrigation association any effect on the average number of people per room?
+interviews_avg_room <- interviews %>% 
+  filter(!is.na(memb_assoc)) %>% # remove respondents with missing irrigation association data
+  mutate(people_per_room = no_membrs / rooms) # new column: average no. of people per room
+## some more information on the filter: ! symbol negates the result of the is.na() function:
+## if is.na() returns TRUE (because memb_assoc is missing) the ! symbol negates this and says:
+## only use values of FALSE where memb_assoc is not missing
+
+
+
 
