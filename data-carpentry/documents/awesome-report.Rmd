@@ -1,0 +1,6 @@
+---
+title: "My Awesome Report"
+author: "Emmet Brickowski"
+date: ""
+output: html_document
+---
