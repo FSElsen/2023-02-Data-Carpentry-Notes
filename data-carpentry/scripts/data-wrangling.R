@@ -25,3 +25,6 @@ filter(interviews, village == "Chirodzo" &
          rooms > 1 &
        no_meals > 2) # filter observations with the "and" operator > output dataframe satisfies ALL specified conditions
 
+## select rows based on an "or" statement (| logical operator), where at least one of the conditions must be met
+filter(interviews, village == "Chirodzo" | village == "Ruaca") # filter output that satisfies one of these two criteria
+
