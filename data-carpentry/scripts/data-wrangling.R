@@ -22,6 +22,6 @@ select(interviews, village:respondent_wall_type) # select a series of connected 
 filter(interviews, village == "Chirodzo") # filter observations where village name is Chirodzo
 
 filter(interviews, village == "Chirodzo" &
-         rooms > 1,
+         rooms > 1 &
        no_meals > 2) # filter observations with the "and" operator > output dataframe satisfies ALL specified conditions
 
