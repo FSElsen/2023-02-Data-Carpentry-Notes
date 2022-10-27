@@ -96,7 +96,8 @@ interviews %>%
 
 ## we can use the count() function to count the number of observations for certain factors
 interviews %>% 
-  count(village) # count the number of rows per village
+  count(village, sort = TRUE) # count the number of rows per village
+# sort will five results in decreasing order
 
 
 
