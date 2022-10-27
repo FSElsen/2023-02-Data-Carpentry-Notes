@@ -1,3 +1,1 @@
-# test to check gitautopush
-
-## update: it works!
+# test to check gitautopush 2022-10-27
