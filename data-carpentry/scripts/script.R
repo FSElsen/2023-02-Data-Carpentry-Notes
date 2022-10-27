@@ -174,7 +174,9 @@ interview_last <- interviews[n_rows, ]
 
 # create a factor for the wall types
 levels_wall_type <- factor(interviews$respondent_wall_type)
-levels(levels_wall_type)
-plot(levels_wall_type)
-nlevels(levels_wall_type)
+levels(levels_wall_type) # list of all levels
+nlevels(levels_wall_type) # numbers of levels
+
+levels(levels_wall_type)[1] 
+levels(levels_wall_type)[2]
 
