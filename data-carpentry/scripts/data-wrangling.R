@@ -99,5 +99,12 @@ interviews %>%
   count(village, sort = TRUE) # count the number of rows per village
 # sort will five results in decreasing order
 
+## Exercise solution
+interviews %>%
+  count(no_meals)
+
+
+
+
 
 
