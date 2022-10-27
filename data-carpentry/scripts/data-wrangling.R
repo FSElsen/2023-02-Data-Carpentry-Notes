@@ -68,6 +68,12 @@ interviews_avg_room <- interviews %>%
 ## if is.na() returns TRUE (because memb_assoc is missing) the ! symbol negates this and says:
 ## only use values of FALSE where memb_assoc is not missing
 
+## Exercise solution
+interviews_total_meals <- interviews %>% 
+  mutate(total_meals = no_membrs * no_meals) %>% 
+  filter(total_meals > 20) %>% 
+  select(village, total_meals)
 
+#### Split-apply-combine data analysis and the summarize() function ####
 
 
