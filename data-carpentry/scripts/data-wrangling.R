@@ -112,7 +112,11 @@ interviews %>%
     n = n()
   )
 
-
+#### Reshaping with pivot_wider() and pivot_longer() ####
+## Rules of tidy datasets:
+## 1. Each variable has its own column
+## 2. Each observation has its own row
+## 3. Each value must have its own cell
 
 
 
