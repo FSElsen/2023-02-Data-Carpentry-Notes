@@ -37,7 +37,7 @@ To work with the solution instructors need to have the following setup ready:
 ### Troubleshooting
 - git requires SSH authentication
     - Add [SSH agent](https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase): write `eval $(ssh-agent)` followed by `ssh-add` in your terminal
-    - If you don't SSH key set up yet, set it up without a passphrase (just hit enter when prompted for it)
+    - If you don't have SSH key set up yet, set it up without a passphrase (just hit enter when prompted for it)
     - You can try with `git clone` using  `https` (worked for me but normally not recommended)
 - ValueError: A `git status` command didn't work, are you sure this is a git repository?
     - It might be occuring when there are already some changes to be staged once you launch `gitautopush`. First, run `gitautopush`, then start creating files or making changes to the existing ones. 
