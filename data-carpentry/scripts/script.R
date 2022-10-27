@@ -183,5 +183,10 @@ levels(levels_wall_type)[2] <- 'Cements'
 
 # Exercise 3
 
+level_memb_assoc <- factor(interviews$memb_assoc)
+levels(level_memb_assoc)
 
+levels(level_memb_assoc)[1] <- 'No'
+levels(level_memb_assoc)[3] <- 'Yes'
+plot(level_memb_assoc)
 
