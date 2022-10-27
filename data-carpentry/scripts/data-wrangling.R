@@ -124,6 +124,11 @@ interviews_wide <- interviews %>%
               values_from = wall_type_logical, # take values from dummy variable
               values_fill = list(wall_type_logical = FALSE)) # fill remainder of the wall type columns with FALSE
 
+# from wide to long again, we use pivot_longer
+interviews_long <- interviews_wide %>% 
+  pivot_longer(cols = c(muddaub, cement, sunbricks, burntbricks),
+               names_to = "respondent_wall_type",
+               values_to = "wall_type_logical")
 
 
 
