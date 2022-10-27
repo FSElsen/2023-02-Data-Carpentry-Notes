@@ -80,7 +80,11 @@ interviews_total_meals <- interviews %>%
 interviews %>% 
   group_by(village) %>% # use a categorical variable to group the data
   summarize(mean_no_membrs = mean(no_membrs)) # compute the average household
-
+## group by multiple columns:
+interviews %>% 
+  group_by(village, memb_assoc) %>% # group by village AND memb_assoc
+  summarize(mean_no_membrs = mean(no_membrs)) %>% 
+  ungroup()
 
 
 
