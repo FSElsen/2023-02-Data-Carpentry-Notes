@@ -91,8 +91,8 @@ interviews %>%
   filter(!is.na(memb_assoc)) %>% # filter out memb_assoc = NA / missing
   group_by(village, memb_assoc) %>% # group by village AND memb_assoc
   summarize(mean_no_membrs = mean(no_membrs), # first we summarize the mean no. of members, then place a comma
-            min_membrs = min(no_membrs)) # next, we summarize the minimum household size
-  
+            min_membrs = min(no_membrs)) %>% # next, we summarize the minimum household size
+  arrange(min_membrs) # rearrange output by min_membrs using arrange()
 
 
 
