@@ -38,6 +38,7 @@ interviews3 <- select(interviews2, village:respondent_wall_type) # next we selec
 ## another option is to nest functions:
 interviews3 <- select(filter(interviews, village == "Chirodzo"),
                       village:respondent_wall_type)
+## downsides of nesting: difficult to read, need to consider the order (R evaluates from the inside out: here filtering, then selecting)
 
 
 
