@@ -28,3 +28,16 @@ filter(interviews, village == "Chirodzo" &
 ## select rows based on an "or" statement (| logical operator), where at least one of the conditions must be met
 filter(interviews, village == "Chirodzo" | village == "Ruaca") # filter output that satisfies one of these two criteria
 
+#### Pipes ####
+
+## what if we want to select and filter at the same time?
+## we can use multiple steps:
+interviews2 <- filter(interviews, village == "Chirodzo") # we make a new dataframe to filter on village
+interviews3 <- select(interviews2, village:respondent_wall_type) # next we select a number of columns from this new dataframe
+
+## another option is to nest functions:
+interviews3 <- select(filter(interviews, village == "Chirodzo"),
+                      village:respondent_wall_type)
+
+
+
