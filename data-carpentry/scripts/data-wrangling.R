@@ -49,3 +49,8 @@ interviews3_pipe <- interviews %>% # first we take the dataframe
   filter(village == "Chirodzo") %>% # then we filter on village and send it forward
   select(village:respondent_wall_type) # then we select the columns
 
+## Exercise solution
+interviews4 <- interviews %>% 
+  filter(memb_assoc == "yes") %>% 
+  select(affect_conflicts, liv_count, no_meals)
+
