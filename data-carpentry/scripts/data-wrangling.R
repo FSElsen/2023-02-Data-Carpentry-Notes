@@ -151,6 +151,8 @@ interviews_plotting <- interviews %>%
   mutate(number_months_lack_food = rowSums(select(., Jan:May))) %>%
   mutate(number_items = rowSums(select(., bicycle:car)))
 
+## save the dataframe to our data_output directory
+write_csv(interviews_plotting, file = "data_output/interviews_plotting.csv")
 
 
 
