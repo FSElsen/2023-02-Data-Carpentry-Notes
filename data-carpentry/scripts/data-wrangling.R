@@ -19,3 +19,6 @@ interviews[c("village", "no_membrs", "months_lack_food")] # select the same colu
 select(interviews, village:respondent_wall_type) # select a series of connected columns
 
 ## select rows based on specific criteria using filter()
+filter(interviews, village == "Chirodzo") # filter observations where village name is Chirodzo
+
+
