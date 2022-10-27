@@ -177,6 +177,7 @@ levels_wall_type <- factor(interviews$respondent_wall_type)
 levels(levels_wall_type) # list of all levels
 nlevels(levels_wall_type) # numbers of levels
 
-levels(levels_wall_type)[1] 
-levels(levels_wall_type)[2]
+## renaming levels
+levels(levels_wall_type)[1] <- 'Burnt bricks'
+levels(levels_wall_type)[2] <- 'Cements'
 
