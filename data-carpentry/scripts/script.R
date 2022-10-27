@@ -181,3 +181,7 @@ nlevels(levels_wall_type) # numbers of levels
 levels(levels_wall_type)[1] <- 'Burnt bricks'
 levels(levels_wall_type)[2] <- 'Cements'
 
+# Exercise 3
+
+
+
