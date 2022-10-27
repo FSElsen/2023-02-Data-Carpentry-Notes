@@ -200,4 +200,6 @@ years <- year(dates) # extract the year
 months <- month(dates) # extract the month
 day <- day(dates) # extract the days
 
+char_data <- c( '7/12/2021','3/5/2020')
+new_data <- as_date( char_data , format = '%m/%d/%y' )
 
