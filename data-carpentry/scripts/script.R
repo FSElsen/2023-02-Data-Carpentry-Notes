@@ -176,5 +176,5 @@ interview_last <- interviews[n_rows, ]
 levels_wall_type <- factor(interviews$respondent_wall_type)
 levels(levels_wall_type)
 plot(levels_wall_type)
-
+nlevels(levels_wall_type)
 
