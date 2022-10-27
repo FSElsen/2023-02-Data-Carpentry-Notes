@@ -94,7 +94,9 @@ interviews %>%
             min_membrs = min(no_membrs)) %>% # next, we summarize the minimum household size
   arrange(min_membrs) # rearrange output by min_membrs using arrange()
 
-
+## we can use the count() function to count the number of observations for certain factors
+interviews %>% 
+  count(village) # count the number of rows per village
 
 
 
