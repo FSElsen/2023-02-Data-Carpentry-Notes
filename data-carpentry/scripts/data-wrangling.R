@@ -118,6 +118,12 @@ interviews %>%
 ## 2. Each observation has its own row
 ## 3. Each value must have its own cell
 
+interviews_wide <- interviews %>% 
+  mutate(wall_type_logical = TRUE) %>% # we create a dummy variable wall_type_logical (=TRUE)
+  pivot_wider(names_from = respondent_wall_type, # take the names for the new columns from respondent_wall_type
+              values_from = wall_type_logical, # take values from dummy variable
+              values_fill = list(wall_type_logical = FALSE)) # fill remainder of the wall type columns with FALSE
+
 
 
 
