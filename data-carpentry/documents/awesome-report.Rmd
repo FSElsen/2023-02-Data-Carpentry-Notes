@@ -4,7 +4,7 @@ author: "Emmet Brickowski"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
+```{r setup, eval=FALSE}
 library(tidyverse)
 library(here)
 interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
@@ -45,7 +45,7 @@ This is ranking of my favourite variables:
 
 ## Results
 
-```{r table-1, eval=FALSE, message=FALSE}
+```{r table-1, =FALSE, message=FALSE}
 interviews %>%
   filter(!is.na(memb_assoc)) %>% 
   group_by(village, memb_assoc) %>% 
