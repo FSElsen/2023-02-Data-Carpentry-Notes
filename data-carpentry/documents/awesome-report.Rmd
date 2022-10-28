@@ -82,7 +82,20 @@ interviews_plotting %>%
     geom_count()
 ```
 
+```{r rooms-village-scatter}
+interviews_plotting %>% 
+  ggplot(aes(x = rooms, y = village, colour = respondent_wall_type)) + 
+  geom_point()
+```
 
+<!-- boxplots might be better...-->
 
+```{r}
+respondent_rooms_plot <- interviews_plotting %>%
+  ggplot(aes(y = rooms, x = village, colour = respondent_wall_type))
+
+respondent_rooms_plot +
+  geom_boxplot()
+```
 
 
