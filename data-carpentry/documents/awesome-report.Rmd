@@ -140,9 +140,18 @@ percent_wall_type <- interviews_plotting %>%
 
 ```{r}
 percent_wall_type %>% 
-  ggplot(aes(x = village, y = percent, fill = respondent_wall_type)) +
+  ggplot(aes(x = respondent_wall_type, y = percent, fill = respondent_wall_type)) +
     #geom_bar(position = "dodge", stat = "identity") # solution 1
-    geom_col(position = "dodge") # solution 2
+    geom_col(position = "dodge") + # solution 2
+    labs(
+      title = "Proportion of wall type by village",
+      x = "Wall type",
+      y = "Percent"
+      ) +
+    facet_wrap(~ village) +
+    theme_bw() +
+    theme(panel.grid.major.x = element_blank()) +
+    scale_fill_viridis_d()
 ```
 
 
