@@ -18,6 +18,7 @@ For example, we learned about **tidyverse**, using the *SAFI* dataset. The *SAFI
 dataset contains the following variables:
 
 - village
+  + Name of the village
 - interview_date
 - no_members
 - years_liv
