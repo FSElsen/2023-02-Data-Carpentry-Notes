@@ -407,10 +407,6 @@ variables:</p>
 </div>
 <div id="results" class="section level2">
 <h2>Results</h2>
-<pre class="r"><code>interviews %&gt;%
-  filter(!is.na(memb_assoc)) %&gt;% 
-  group_by(village, memb_assoc) %&gt;% 
-  summarise(mean_no_membrs = mean(no_membrs))</code></pre>
 <pre><code>## `summarise()` has grouped output by &#39;village&#39;. You can override using the
 ## `.groups` argument.</code></pre>
 <pre><code>## # A tibble: 6 × 3
