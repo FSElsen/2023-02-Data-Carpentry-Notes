@@ -14,5 +14,20 @@ output: html_document
 
 In this workshop, I learned **really cool** things! And I mean ***REALLY*** cool!
 
-For example, we learned about **tidyverse**, using the *SAFI* dataset.
+For example, we learned about **tidyverse**, using the *SAFI* dataset. The *SAFI*
+dataset contains the following variables:
+
+- village
+- interview_date
+- no_members
+- years_liv
+- respondent_wall_type
+- rooms
+
+
+
+
+
+
+
 
