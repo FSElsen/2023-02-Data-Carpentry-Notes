@@ -135,6 +135,9 @@ percent_wall_type <- interviews_plotting %>%
   ungroup()
 ```
 
+`geom_bar` only allows x or y (not both).
+`geom_col` allows both.
+
 ```{r}
 percent_wall_type %>% 
   ggplot(aes(x = village, y = percent, fill = respondent_wall_type)) +
