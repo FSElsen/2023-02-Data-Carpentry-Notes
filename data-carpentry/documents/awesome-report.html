@@ -407,48 +407,14 @@ variables:</p>
 </div>
 <div id="results" class="section level2">
 <h2>Results</h2>
-<table>
-<caption>Pretty table</caption>
-<thead>
-<tr class="header">
-<th align="left">Village</th>
-<th align="left">Member of Association</th>
-<th align="right">Mean Number of Members</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Chirodzo</td>
-<td align="left">no</td>
-<td align="right">8.062500</td>
-</tr>
-<tr class="even">
-<td align="left">Chirodzo</td>
-<td align="left">yes</td>
-<td align="right">7.818182</td>
-</tr>
-<tr class="odd">
-<td align="left">God</td>
-<td align="left">no</td>
-<td align="right">7.133333</td>
-</tr>
-<tr class="even">
-<td align="left">God</td>
-<td align="left">yes</td>
-<td align="right">8.000000</td>
-</tr>
-<tr class="odd">
-<td align="left">Ruaca</td>
-<td align="left">no</td>
-<td align="right">7.178571</td>
-</tr>
-<tr class="even">
-<td align="left">Ruaca</td>
-<td align="left">yes</td>
-<td align="right">9.500000</td>
-</tr>
-</tbody>
-</table>
+<pre class="r"><code>interviews %&gt;%
+  filter(!is.na(memb_assoc)) %&gt;% 
+  group_by(village, memb_assoc) %&gt;% 
+  summarise(mean_no_membrs = mean(no_membrs)) %&gt;%
+  knitr::kable(
+    col.names = c(&quot;Village&quot;, &quot;Member of Association&quot;, &quot;Mean Number of Members&quot;),
+    caption = &quot;Pretty table&quot;
+    )</code></pre>
 </div>
 </div>
 

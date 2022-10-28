@@ -45,7 +45,7 @@ This is ranking of my favourite variables:
 
 ## Results
 
-```{r table-1, echo=FALSE, message=FALSE}
+```{r table-1, eval=FALSE, message=FALSE}
 interviews %>%
   filter(!is.na(memb_assoc)) %>% 
   group_by(village, memb_assoc) %>% 
