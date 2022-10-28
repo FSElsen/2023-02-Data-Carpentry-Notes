@@ -30,6 +30,12 @@ dataset contains the following variables:
 
 write something important
 
+This is ranking of my favourite variables:
+
+1. rooms
+2. no_members
+3. years_liv
+
 
 
 
