@@ -110,4 +110,6 @@ interviews_plotting %>%
     )
 ```
 
+<!-- Bar plots -->
+
 
