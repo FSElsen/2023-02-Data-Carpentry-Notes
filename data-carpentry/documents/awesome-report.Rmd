@@ -8,7 +8,7 @@ output: html_document
 library(tidyverse)
 library(here)
 interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
-interview_plotting <- read_csv(here("data_output/interviews_plotting.csv"))
+interviews_plotting <- read_csv(here("data_output/interviews_plotting.csv"))
 ```
 
 
@@ -55,6 +55,13 @@ interviews %>%
     col.names = c("Village", "Member of Association", "Mean Number of Members"),
     caption = "Pretty table"
     )
+```
+
+<!-- data visualisation with ggplot2 -->
+
+```{r}
+interviews_plotting %>% 
+  ggplot(aes(x = no_membrs, y = number_items))
 ```
 
 
