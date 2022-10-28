@@ -150,7 +150,8 @@ percent_wall_type %>%
       ) +
     facet_wrap(~ village) +
     theme_bw() +
-    theme(panel.grid.major.x = element_blank()) +
+    theme(panel.grid.major.x = element_blank(),
+          axis.text.x = element_text(angle = 45)) +
     scale_fill_viridis_d()
 ```
 
