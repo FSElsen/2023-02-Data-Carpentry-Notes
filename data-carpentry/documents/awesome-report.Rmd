@@ -12,7 +12,7 @@ output: html_document
 
 ## Introduction
 
-In this workshop, I learned **really cool** things! And I mean *REALLY* cool!
+In this workshop, I learned **really cool** things! And I mean ***REALLY*** cool!
 
 For example, we learned about **tidyverse**, using the *SAFI* dataset.
 
