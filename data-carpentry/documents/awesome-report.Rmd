@@ -76,6 +76,11 @@ interviews_plotting %>%
     )
 ```
 
+```{r}
+interviews_plotting %>%
+  ggplot(aes(x = no_membrs, y = number_items, colour = village)) +
+    geom_count()
+```
 
 
 
