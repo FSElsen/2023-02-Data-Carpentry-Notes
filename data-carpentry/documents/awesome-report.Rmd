@@ -12,4 +12,4 @@ output: html_document
 
 ## Introduction
 
-In this workshop, I learned **really cool** things!
+In this workshop, I learned **really cool** things! And I mean *REALLY* cool!
