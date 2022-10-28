@@ -124,6 +124,7 @@ interviews_plotting %>%
     geom_bar(aes(fill = village), position = "dodge") # fill colours the bars in the plot
 ```
 
+<!-- relative contributions of the variables instead of absolute-->
 
 
 
