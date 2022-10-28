@@ -67,9 +67,9 @@ interviews_plotting %>%
 
 ```{r}
 interviews_plotting %>% 
-  ggplot(aes(x = no_membrs, y = number_items)) +
+  ggplot(aes(x = no_membrs, y = number_items, colour = village)) +
     geom_jitter(
-      colour = "blue",
+      #colour = "blue", # add colour to all points
       alpha = 0.3, 
       width = 0.2, # random noise on x-axis
       height = 0.2 # random noise on y-axis
