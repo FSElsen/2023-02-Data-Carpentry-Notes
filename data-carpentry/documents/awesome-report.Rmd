@@ -112,4 +112,20 @@ interviews_plotting %>%
 
 <!-- Bar plots -->
 
+```{r}
+interviews_plotting %>%
+  ggplot(aes(x = respondent_wall_type)) +
+    geom_bar(aes(fill = village)) # fill colours the bars in the plot
+```
+
+```{r}
+interviews_plotting %>%
+  ggplot(aes(x = respondent_wall_type)) +
+    geom_bar(aes(fill = village), position = "dodge") # fill colours the bars in the plot
+```
+
+
+
+
+
 
