@@ -7,7 +7,7 @@ output: html_document
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(here)
-interviews <- read_csv(here("data/SAFI_clean.csv"))
+interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
 ```
 
 
@@ -43,8 +43,13 @@ This is ranking of my favourite variables:
 2. no_members
 3. years_liv
 
-```{r}
+## Results
 
+```{r}
+interviews %>%
+  filter(!is.na(memb_assoc)) %>% 
+  group_by(village, memb_assoc) %>% 
+  summarise(mean_no_membrs = mean(no_membrs))
 ```
 
 
