@@ -61,7 +61,18 @@ interviews %>%
 
 ```{r}
 interviews_plotting %>% 
-  ggplot(aes(x = no_membrs, y = number_items))
+  ggplot(aes(x = no_membrs, y = number_items)) + 
+    geom_point(alpha = 0.3) # code for a scatter plot
+```
+
+```{r}
+interviews_plotting %>% 
+  ggplot(aes(x = no_membrs, y = number_items)) +
+    geom_jitter(
+      alpha = 0.3, 
+      width = 0.2, # random noise on x-axis
+      height = 0.2 # random noise on y-axis
+    )
 ```
 
 
