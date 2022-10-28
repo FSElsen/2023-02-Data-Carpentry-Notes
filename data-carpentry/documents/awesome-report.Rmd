@@ -26,9 +26,9 @@ dataset contains the following variables:
 - respondent_wall_type
 - rooms
 
-<!-- this is a comment 
+<!-- this is a comment -->
 
-write something important -->
+write something important
 
 
 
