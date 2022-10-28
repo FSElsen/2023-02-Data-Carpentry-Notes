@@ -126,6 +126,24 @@ interviews_plotting %>%
 
 <!-- relative contributions of the variables instead of absolute-->
 
+```{r}
+percent_wall_type <- interviews_plotting %>%
+  filter(respondent_wall_type != "cement") %>% 
+  count(village, respondent_wall_type) %>%
+  group_by(village) %>% 
+  mutate(percent = (n / sum(n)) * 100) %>% 
+  ungroup()
+```
+
+```{r}
+percent_wall_type %>% 
+  ggplot(aes(x = village, y = percent, fill = respondent_wall_type)) +
+    #geom_bar(position = "dodge", stat = "identity") # solution 1
+    geom_col(position = "dodge") # solution 2
+```
+
+
+
 
 
 
