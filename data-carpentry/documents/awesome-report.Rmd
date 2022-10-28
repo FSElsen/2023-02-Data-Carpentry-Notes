@@ -4,6 +4,13 @@ author: "Emmet Brickowski"
 output: html_document
 ---
 
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+interviews <- read_csv(here("data/SAFI_clean.csv"))
+```
+
+
 # My Awesome Report
 ## Section title
 ### Sub-section
@@ -36,7 +43,9 @@ This is ranking of my favourite variables:
 2. no_members
 3. years_liv
 
+```{r}
 
+```
 
 
 
