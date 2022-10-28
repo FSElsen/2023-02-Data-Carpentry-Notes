@@ -4,7 +4,7 @@ author: "Emmet Brickowski"
 output: html_document
 ---
 
-```{r setup, eval=FALSE}
+```{r setup, include=FALSE}
 library(tidyverse)
 library(here)
 interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
