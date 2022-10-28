@@ -8,6 +8,7 @@ output: html_document
 library(tidyverse)
 library(here)
 interviews <- read_csv(here("data/SAFI_clean.csv"), na = "NULL")
+interview_plotting <- read_csv(here("data_output/interviews_plotting.csv"))
 ```
 
 
