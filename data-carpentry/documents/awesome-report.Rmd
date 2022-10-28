@@ -21,6 +21,7 @@ dataset contains the following variables:
   + Name of the village
 - interview_date
 - no_members
+  + How many family members in a house
 - years_liv
 - respondent_wall_type
 - rooms
