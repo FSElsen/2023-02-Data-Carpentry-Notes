@@ -33,6 +33,7 @@ To work with the solution instructors need to have the following setup ready:
 - see if it automatically pushes to the repository
 - save changes often with `Ctrl+S` in order for the changes to be pushed o the repository
 - once you finish your lesson, make sure to close `gitautopush` with `Ctrl+C`  
+- test Eduard 2023-02-17
 
 ### Troubleshooting
 - git requires SSH authentication
